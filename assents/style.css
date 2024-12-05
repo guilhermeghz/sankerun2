@@ -1,0 +1,141 @@
+@charset "UTF-08";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+/* vermelho #f60c49 */
+/* azul #101942 */
+/* salmao #f09580 */
+/* amarelo claro #fdf2b4 */
+
+* {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+body,
+
+body{
+    background-image: url("fundo.jpg");
+    background-size: cover;
+}
+
+
+
+
+body{
+    font-family: "Oswald", sans-serif;
+    background-position:top;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-image: linear-gradient(to bottom, white, );
+}
+
+
+
+
+main {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* background-color: #101942; */
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1 {
+    font-size: 50px;
+    color: #f5efea;
+
+}
+
+canvas {
+    background-color: #000000e6;
+    align-items: center;
+    border: 5px solid  #f60c49 ;
+}
+
+.score {
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.8rem;
+    color: #f5efea;
+
+}
+
+.score--value {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 4.5rem;
+    display: block;
+    margin-top: -10px;
+}
+
+.menu-screen {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.game-over {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #f5efea;
+}
+
+.final-score {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #f5efea;
+}
+
+.btn-play {
+    border: none;
+    border-radius: 100px;
+    padding: 10px 15px 10px 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+footer {
+    font-family: "Oswald", sans-serif;
+    /* background-color: #101942 ; */
+    color: #07c3fc;
+    min-width: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer>a{
+font-size: 25px;
+    text-decoration: none;
+    color:  #f09580;
+}
+footer>a:hover{
+    color: #f60c49  ;
+
+}
+.footer{
+    font-size: 30px;
+}
